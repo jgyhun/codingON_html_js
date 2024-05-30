@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>설문조사</title>
+</head>
+<body>
+    <h2>설문조사</h2>
+    
+     <form action="poll.jsp" method="post">
+        <p>
+            <label>이름:</label>
+            <input type="text" name="id" autofocus required placeholder="아이디를 입력하세요">
+        </p>
+        <p>
+            <label>이메일:</label>
+            <input type="text" name="e-mail" required placeholder="love@example.com">
+        </p>
+
+        <div>
+         <h3>나이</h3>
+            <label><input type="radio" name="age" value="10" checked>10대</label>
+            <label><input type="radio" name="age" value="20">20대</label>
+            <label><input type="radio" name="age" value="30">30대</label>
+            <label><input type="radio" name="age" value="40">40대</label>
+            <label><input type="radio" name="age" value="50">50대</label>
+            <label><input type="radio" name="age" value="60up">60대 이상</label>
+        </div>
+
+        <div>
+         <h3>원하는 강의(복수 선택 가능)</h3>
+        
+            <label><input type="checkbox" name="class" value="html">html</label>
+            <label><input type="checkbox" name="class" value="jsp">javascript</label>
+            <label><input type="checkbox" name="class" value="css">css</label>
+        </div>    
+        <div>
+            <textarea name="content" rows="5" cals="80" placeholder="하고 싶은 말을 입력 해 주십시오"></textarea>
+        </div>
+        <input type="submit" value="제출">
+    
+
+        
+    </form>
+</body>
+</html>
