@@ -1,0 +1,17 @@
+img{
+    border: 1px solid rgb(43, 43, 253);
+    border-radius: 5px;
+}
+
+table{
+    border: 1px solid #ccc;
+    border-collapse: collapse; 
+}
+th, td{
+    border: 1px solid #ccc; 
+    padding: 10px;
+}
+
+thead{
+    background-color: #eee;
+}

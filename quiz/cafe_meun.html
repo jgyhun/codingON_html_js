@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메뉴 표 만들기</title>
+  
+    
+    <style>
+        table{
+            width: 450px;
+            border: 1px solid gray;
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 1px solid gray;
+            text-align: center;
+        }
+
+        thead{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" width="100">
+        <colgroup>
+            <col style="background-color: aliceblue; width: 60px;" >
+            <col style="width: 100px;">
+        </colgroup>
+        
+        <thead>
+            <tr>
+                <th>구분</th>
+                <th>음식</th>
+                <th>가격</th>
+                <th>이미지</th>
+
+
+            </tr>
+        </thead>
+
+        <thead align="center">
+            <tr>
+                <td rowspan="3" width="100">커피류</td>
+                <td>아메리카노</td>
+                <td>2000원</td>
+                <td><img src="image/Americano.jpeg" alt="커피" width="150" height="150"></td>
+
+            </tr>
+            <tr>
+                <td>라떼</td>
+                <td>3000원</td>
+                <td><img src="image/Latte.jpeg" alt="라떼" width="150" height="150"></td>
+            </tr>
+            
+        </thead>
+
+        <thead align="center">
+            <tr>
+                <td rowspan="3">주스류</td>
+                <td>딸기 주스</td>
+                <td>3800원</td>
+                <td><img src="image/berry.jpeg" alt="딸기 주스" width="150" height="150"></td>
+            </tr>
+            <tr>
+                <td>망고 주스</td>
+                <td>3600원</td>
+                <td><img src="image/mango.jpeg" alt="망고 주스" width="150" height="150"></td>
+            </tr>
+            
+        </thead>    
+            
+    </table>
+
+    
+    
+</body>
+</html>
