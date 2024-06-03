@@ -1,0 +1,19 @@
+/* body{
+    color: red;
+} */
+
+*{
+    color: blueviolet;
+}
+
+ul li{
+    color: blue;
+}
+
+.orange{
+    color: orange;
+}
+
+#tomato{
+    color: red;
+}

@@ -1,0 +1,27 @@
+div{
+    width: 400px;
+    height: 400px;
+    /* 16진수 방식 */
+    border: 1px solid #000000;
+    background: url("../images/watermelon.jpg") no-repeat;
+}
+/* 원본이 사각형 크기로 늘려서 보임 */
+#bg1{
+    background-size: auto;
+}
+/* 크기가 축소되어 보임 */
+#bg2{
+    background-size: 300px;
+}
+#bg3{
+    background-size: 80px;
+    background-position: bottom left;
+}
+
+#bg4{
+    background-size: contain;
+}
+
+#bg5{
+    background-size: cover;
+}
