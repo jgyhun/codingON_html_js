@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if 예제</title>
+</head>
+<body>
+    <script>
+        //비교문이 true아면 참을 실행, false이면 거짓을 수행
+        /*if(비교문) {
+          실행(참)
+        }else{
+          실행(거짓)
+        }
+        */
+
+        //1. 단독 if문
+        // let limitedSpeed = 45;
+
+        
+        // if(limitedSpeed >= 50){
+        //     document.write("안전속도 위반!! <br>");
+            
+        // }
+        // let limitedSpeed = 45;
+
+        
+        // if(limitedSpeed >= 50){
+        //     document.write("안전속도 위반!! <br>");
+            
+        // }else{
+        //     document.write("안전속도 준수!!<br>")
+            
+        // }
+        // document.write("현재속도:"+limitedSpeed + "km입니다");
+
+        // 홀짝 판별
+        // 점수가 60이상 이면 합격 이하면 불합격
+
+        // let score = 80;
+        // if(score >= 60){
+        //     document.write("합격 입니다!!<br>");
+
+        // }else{
+        //     document.write("불합격 입니다<br");
+
+        // }
+        // document.write("당신의 점수는" + score + "입니다<br>");
+
+        // 어떤 수가 짝수인지 홀수인지 판별
+        let num = prompt("숫자를 입력하세요", "1");
+        num = Number(num);
+        if(num % 2 === 0){
+            document.write("짝수입니다<br>")
+
+        }else{
+            document.write("홀수입니다.<br>")
+        }
+        document.write("입력된 수 는" + num +"입니다")
+    </script>
+</body>
+</html>

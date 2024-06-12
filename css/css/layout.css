@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
+}
+
+#container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    /* width =테두리+패딩 */
+    /* width: 978px; */
+    width: 1000px;
+    height: 100px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+section{
+    width: 650px;
+    height: 600px;
+    border: 1px solid #ccc;
+    float: left;
+    background-color: aqua;
+
+}
+aside{
+    width: 300px;
+    height: 600px;
+    border: 1px solid #ccc;
+    float: right;
+    background-color: #f0f000;
+}
+
+footer{
+    width: 1000px;
+    height: 100px;
+    border: 1px solid #ccc;
+    clear: both;
+}

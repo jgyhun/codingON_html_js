@@ -1,0 +1,46 @@
+div{
+    margin-top: 10px;
+}
+
+#container{
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+
+fieldset{
+    margin-bottom: 5px;
+    
+}
+input{
+    margin-left: 20px;
+}
+
+select{
+    width: 140;
+    margin-left: 20px;
+}
+
+form{
+    width: 400px;
+    margin: 0 auto;
+}
+
+ul li{
+    line-height: 2;
+    list-style: none;
+    margin-bottom: 10px;
+}
+ul li label{
+    width: 100px; 
+    float: left;
+}
+
+ul li input{
+    width: 140px; height: 20px;
+}
+button{
+    padding: 5px 10px;
+    cursor:  pointer;
+}
+
