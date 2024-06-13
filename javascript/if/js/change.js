@@ -23,4 +23,4 @@ if(age < 8 ){
     document.write("일반인 입니다.<br>")
     charge = 3000;
 }
-document.write("입장료는 <span class='access'>" + charge + "원</span>입니다")
+document.write("입장료는 <span class='access'>" + charge + "원</span> 입니다.")

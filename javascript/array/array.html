@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+         1. 변수(학생 3명의 성적)
+        */
+       let std1 = 80;
+       let std2 = 90;
+       let std3 = 70;
+
+       console.log(std1);
+
+       console.log(std1 + std2 + std3);
+
+       let std = [80,90,70];
+
+       console.log(std[0]);
+       console.log(std[1]);
+       console.log(std[2]);
+
+       //장바구니 배열
+       let cart = ['딸기','콩나물','계란','수박']
+    //    document.write(cart)
+       console.log(cart);
+       
+    //    document.write('<br>'+ cart[1])
+       console.log(cart[0]);
+       //배열의 크기
+       console.log("배열의 크기"+ cart.length + "개");
+
+       //빈 배열 생성
+
+       let seasons = [];
+       
+       seasons [0] = "카리나";
+       seasons [1] = "윈터";
+       seasons [2] = "민지";
+       seasons [3] = "하니";
+
+       //데이터 수정
+       seasons[0]= "karina";
+       
+       console.log(seasons.length);
+
+       for (let i=0; i < seasons.length; i++){
+        // document.write(seasons);
+        document.write(seasons[i]+"<br>")
+       }
+
+    </script>
+</body>
+</html>
