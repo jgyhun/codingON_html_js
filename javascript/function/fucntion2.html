@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>함수의 선언과 호출</h2>
+    <script>
+        // function sayHello(){
+        //     document.write("안녕하세요<br>")
+        // }
+
+        //이름이 없는 함수(익명함수)
+        let sayHello = function(){
+            document.write("안녕하세요<br>")
+        }
+
+        // function sayHello2(name){
+        //     document.write("안녕~" +name+ '<br>');
+        // }
+
+        let sayHello2 = function(name){
+            document.write("안녕하세요~" +name+'<br>')
+        }
+
+        let oneup = function(x){
+            document.write(x + 1);
+        }
+
+
+
+
+        sayHello();
+        sayHello2("박효신");
+
+        oneup(100);
+
+    </script>
+</body>
+</html>

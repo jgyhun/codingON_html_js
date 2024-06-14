@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /**/
+
+        //person 객체만들기
+        // let person = {
+        //     name: "이강인",
+        //     age: "23",
+        //     isMarried: false,
+            
+        //     play: function(){
+        //         alert("글을 넣는다");
+        //     }
+        // }
+        
+        let book = {
+            title: "코딩 테스트 정복",
+            author: "김영한",
+            pages: 600,
+            price: 30000,
+
+            lofo: function(){
+                alert(this.title+"책의 분량은"+ this.pages+ "페이지 입니다.")
+            }
+
+        }
+        document.write("제목:"+book.title+"<br>");
+        document.write("가격:"+book.price+"원<br>");
+        book.lofo()
+
+
+
+
+
+
+
+        // console.log("이름:"+ person.name);
+        // console.log("나이:"+ person.age);
+        // person.play();
+    </script>
+</body>
+</html>

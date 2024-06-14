@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>date 객체사용</h2>
+    <script>
+        let now = new Date();
+
+        document.write("현재 년도:"+now.getFullYear()+"<br>");
+        document.write("현재 월:"+(now.getMonth()+1)+"<br>");
+        document.write("현재 일:"+now.getDate()+"<br>");
+        document.write("현재 요일:"+now.getDay()+"<br>");
+        
+        document.write("현재 시:"+now.getHours()+"<br>");
+        document.write("현재 분:"+now.getMinutes()+"<br>");
+        document.write("현재 초:"+now.getSeconds()+"<br>");
+
+        document.write("현재까지의 시간:"+now.getTime()/1000+"<br>");
+    </script>
+</body>
+</html>

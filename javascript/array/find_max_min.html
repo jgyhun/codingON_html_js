@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>배열의 최대 값,최소 값 계산</h1>
+    <script>
+        let scores = [70,80,90,65,77,44];
+
+        let maxval = scores[0]; //비교할 기존값(최대 값)
+        
+        for(let i=1; i < scores.length; i++){
+            //기존 값과 배열 값을 비교하여 큰값을 maxval에 대입
+            if(maxval < scores[i]){
+                maxval = scores[i];
+            }
+        }
+        document.write("최대 값:"+ maxval+"<br>");
+        
+        let minval = scores[0];
+
+        for(let i=1; i < scores.length; i++){
+            if(minval > scores[i]){
+                minval = scores[i];
+            }
+        }
+        document.write("최소 값:"+ minval);
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>클래스 정의와 사용</h2>
+    <script>
+        function Person(name,age){
+            this.name = name;
+            this.age = age;
+
+        }
+        let person1 = new Person("이강인",23);
+        document.write("이름:" + person1.name + "<br>");
+        document.write("나이:"+person1.age + "<br>");
+
+        let person2 =new Person("황희찬",26);
+        document.write("이름:" + person2.name + "<br>");
+        document.write("나이:"+person2.age + "<br>");
+
+    </script>
+</body>
+</html>
